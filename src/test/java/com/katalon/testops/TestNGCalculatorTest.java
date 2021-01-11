@@ -4,10 +4,7 @@ import com.katalon.testops.page.CalculatorPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import static org.testng.Assert.assertEquals;
 
@@ -113,6 +110,7 @@ public class TestNGCalculatorTest {
     }
 
     @Test
+    @Ignore
     public void testMultiply() {
         CalculatorPage page = initPage();
 
@@ -132,6 +130,7 @@ public class TestNGCalculatorTest {
     }
 
     @Test
+    @Ignore
     public void testDivide() {
         CalculatorPage page = initPage();
 
@@ -151,6 +150,7 @@ public class TestNGCalculatorTest {
     }
 
     @Test
+    @Ignore
     public void testPercent() {
         CalculatorPage page = initPage();
 
@@ -164,6 +164,7 @@ public class TestNGCalculatorTest {
     }
 
     @Test
+    @Ignore
     public void testPlusMinus() {
         CalculatorPage page = initPage();
 
