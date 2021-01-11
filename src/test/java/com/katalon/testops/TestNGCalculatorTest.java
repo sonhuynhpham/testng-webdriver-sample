@@ -13,7 +13,7 @@ import static org.testng.Assert.assertEquals;
 
 public class TestNGCalculatorTest {
 
-    private final String BASE_URL = "https://ahfarmer.github.io/calculator/";
+    private final String BASE_URL = "https://katalon-studio-samples.github.io/calculator/";
 
     private final ThreadLocal<WebDriver> driver = new InheritableThreadLocal<WebDriver>() {
         @Override
