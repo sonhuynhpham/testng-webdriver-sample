@@ -15,6 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+        <maven-surefire-plugin-version>3.0.0-M5</maven-surefire-plugin-version>
         <testng-version>7.3.0</testng-version>
         <testops-testng-version>1.1.1</testops-testng-version>
         <selenium-java-version>3.141.59</selenium-java-version>
@@ -53,7 +54,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
+                <version>${maven-surefire-plugin-version}</version>
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/calculator-suite.xml</suiteXmlFile>
