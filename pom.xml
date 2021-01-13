@@ -17,7 +17,7 @@
 
         <maven-surefire-plugin-version>3.0.0-M5</maven-surefire-plugin-version>
         <testng-version>7.3.0</testng-version>
-        <testops-testng-version>1.1.1</testops-testng-version>
+        <testops-testng-version>LATEST</testops-testng-version>
         <selenium-java-version>3.141.59</selenium-java-version>
         <webdrivermanager-version>4.2.2</webdrivermanager-version>
     </properties>
